@@ -1,0 +1,65 @@
+{
+  "name": "react-infinite-windowed-loader",
+  "version": "1.0.0",
+  "description": "A high-performance React infinite scroll component with windowing and dual intersection observers",
+  "main": "lib/cjs/index.js",
+  "module": "lib/esm/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "build:watch": "rollup -c -w",
+    "clean": "rimraf lib",
+    "prebuild": "npm run clean",
+    "prepublishOnly": "npm run build",
+    "dev": "rollup -c -w",
+    "lint": "eslint src --ext .ts,.tsx",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "react",
+    "infinite-scroll",
+    "windowing",
+    "virtualization",
+    "intersection-observer",
+    "performance",
+    "typescript",
+    "scroll"
+  ],
+  "author": "ashutoshsarangi95@gmail.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/react-infinite-windowed-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/react-infinite-windowed-loader/issues"
+  },
+  "homepage": "https://github.com/yourusername/react-infinite-windowed-loader#readme",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-react": "^7.33.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "rimraf": "^5.0.0",
+    "rollup": "^4.0.0",
+    "rollup-plugin-dts": "^6.1.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "tslib": "^2.6.0",
+    "typescript": "^5.0.0"
+  },
+  "sideEffects": false
+}
