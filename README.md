@@ -25,6 +25,12 @@ yarn add react-infinite-windowed-loader
 pnpm add react-infinite-windowed-loader
 ```
 
+**⚠️ Important: Don't forget to import the CSS file:**
+
+```tsx
+import 'react-infinite-windowed-loader/lib/InfiniteLoader.css';
+```
+
 ## 🚀 Quick Start
 
 ```tsx

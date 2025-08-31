@@ -1,6 +1,5 @@
 export {
-  InfiniteLoader,
-  default as default
+  InfiniteLoader
 } from './InfiniteLoader';
 
 export type {
@@ -9,5 +8,5 @@ export type {
   InfiniteLoaderRef
 } from './InfiniteLoader';
 
-// CSS is automatically imported by the component
-// Users don't need to import it separately
+// Note: Users need to import the CSS file separately:
+// import 'react-infinite-windowed-loader/lib/InfiniteLoader.css';

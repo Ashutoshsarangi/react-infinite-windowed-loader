@@ -3,8 +3,7 @@ import commonjs from '@rollup/plugin-commonjs';
 import typescript from '@rollup/plugin-typescript';
 import peerDepsExternal from 'rollup-plugin-peer-deps-external';
 import { dts } from 'rollup-plugin-dts';
-
-const packageJson = require('./package.json');
+import packageJson from './package.json' with { type: 'json' };
 
 export default [
   {
@@ -30,7 +29,7 @@ export default [
         exclude: ['**/*.test.tsx', '**/*.test.ts', '**/*.stories.ts']
       }),
     ],
-    external: ['react', 'react-dom'],
+    external: ['react', 'react-dom', /\.css$/],
   },
   {
     input: 'lib/esm/index.d.ts',

@@ -10,9 +10,9 @@
     "README.md"
   ],
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c && cp src/InfiniteLoader.css lib/",
     "build:watch": "rollup -c -w",
-    "clean": "rimraf lib",
+    "clean": "rm -rf lib",
     "prebuild": "npm run clean",
     "prepublishOnly": "npm run build",
     "dev": "rollup -c -w",
@@ -33,12 +33,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/react-infinite-windowed-loader.git"
+    "url": "https://github.com/Ashutoshsarangi/react-infinite-windowed-loader.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/react-infinite-windowed-loader/issues"
+    "url": "https://github.com/Ashutoshsarangi/react-infinite-windowed-loader/issues"
   },
-  "homepage": "https://github.com/yourusername/react-infinite-windowed-loader#readme",
+  "homepage": "https://github.com/Ashutoshsarangi/react-infinite-windowed-loader#readme",
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
@@ -54,12 +54,13 @@
     "eslint": "^8.0.0",
     "eslint-plugin-react": "^7.33.0",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "rimraf": "^5.0.0",
     "rollup": "^4.0.0",
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
     "tslib": "^2.6.0",
     "typescript": "^5.0.0"
   },
+  "type": "module",
   "sideEffects": false
 }
