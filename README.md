@@ -274,6 +274,9 @@ The component comes with default styles but can be fully customized:
 }
 ```
 
+https://github.com/user-attachments/assets/e71c5220-e6ee-49b5-b040-9773917e261d
+
+
 ## 🔄 How It Works
 
 1. **Windowing**: Maintains exactly `windowSize` items in the DOM
