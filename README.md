@@ -26,7 +26,7 @@ pnpm add react-infinite-windowed-loader
 ```
 ## 🚀 Demo Video
 
-https://github.com/user-attachments/assets/e71c5220-e6ee-49b5-b040-9773917e261d
+https://github.com/user-attachments/assets/478a5442-bde6-4f8d-a835-2ea2eb6c317b
 
 **⚠️ Important: Don't forget to import the CSS file:**
 
