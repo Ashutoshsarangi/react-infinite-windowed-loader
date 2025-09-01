@@ -1,6 +1,6 @@
 {
   "name": "react-infinite-windowed-loader",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A high-performance React infinite scroll component with windowing and dual intersection observers",
   "main": "lib/cjs/index.js",
   "module": "lib/esm/index.js",

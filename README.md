@@ -24,6 +24,9 @@ yarn add react-infinite-windowed-loader
 # or
 pnpm add react-infinite-windowed-loader
 ```
+## 🚀 Demo Video
+
+https://github.com/user-attachments/assets/e71c5220-e6ee-49b5-b040-9773917e261d
 
 **⚠️ Important: Don't forget to import the CSS file:**
 
@@ -273,8 +276,6 @@ The component comes with default styles but can be fully customized:
   border: 1px solid #dee2e6;
 }
 ```
-
-https://github.com/user-attachments/assets/e71c5220-e6ee-49b5-b040-9773917e261d
 
 
 ## 🔄 How It Works
